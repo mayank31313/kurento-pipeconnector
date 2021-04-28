@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 28 Apr 2021 22:43:23 +0530
+Source: c-n-vpipeline
+Binary: c-n-vpipeline c-n-vpipeline-dev
+Architecture: amd64
+Version: 0.0.1~rc1
+Distribution: testing
+Urgency: medium
+Maintainer: Maintainer Name <maintainer.name@example.com>
+Changed-By: Maintainer Name <maintainer.name@example.com>
+Description:
+ c-n-vpipeline - Single line synopsis
+ c-n-vpipeline-dev - Single line synopsis
+Changes:
+ c-n-vpipeline (0.0.1~rc1) testing; urgency=medium
+ .
+   * Initial release.
+Checksums-Sha1:
+ 6de2ac70d211d1fd4c702a9affe65aaee91c2fae 835192 c-n-vpipeline-dbgsym_0.0.1~rc1_amd64.ddeb
+ 1e4d629d52436f07ae4af405bb9fc7413bf3d8a0 4628 c-n-vpipeline-dev_0.0.1~rc1_amd64.deb
+ 511ac9c139004f701785e2ed308d170ed6aa5b84 25642 c-n-vpipeline_0.0.1~rc1_amd64.buildinfo
+ 82715b9a5fe8e6029fa6bcd2a1423427f5f2b3c3 36688 c-n-vpipeline_0.0.1~rc1_amd64.deb
+Checksums-Sha256:
+ c1c638b703de59776b32d794b0fd6f49a82f471696fc8797210677ab6c6ef7db 835192 c-n-vpipeline-dbgsym_0.0.1~rc1_amd64.ddeb
+ b85172938ebfa820ece81521e7e2cbc1697b52a0240adfbb3923a1310eea2426 4628 c-n-vpipeline-dev_0.0.1~rc1_amd64.deb
+ 5b6cf023467b4022c6d83fd3caad9fde25a2a3e3c3cdc223a754d06bf01dfeda 25642 c-n-vpipeline_0.0.1~rc1_amd64.buildinfo
+ 705e418fd8a133413d6d0bdea4615ebb694fce2848febe9d42f290065afdeef1 36688 c-n-vpipeline_0.0.1~rc1_amd64.deb
+Files:
+ 4f4fb898a728c150dc71527e345aeb5e 835192 debug optional c-n-vpipeline-dbgsym_0.0.1~rc1_amd64.ddeb
+ ae19d5403cfde01442983b9d5a3bde57 4628 libdevel optional c-n-vpipeline-dev_0.0.1~rc1_amd64.deb
+ 32b183936b5d9fed5f57f7be35cbebdf 25642 - optional c-n-vpipeline_0.0.1~rc1_amd64.buildinfo
+ 6d972668ea26616c6c1bf3de0186d933 36688 libs optional c-n-vpipeline_0.0.1~rc1_amd64.deb
