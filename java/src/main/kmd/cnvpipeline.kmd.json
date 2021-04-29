@@ -55,7 +55,51 @@
           }
         ],
         "doc": "Create an element"
-      }
+      },
+      "methods": [
+        {
+          "params": [
+            {
+              "name": "server",
+              "type": "String"
+            }
+          ],
+          "name": "connect",
+          "doc": "Connect to Pipe"
+        },
+        {
+          "params": [],
+          "name": "disconnect",
+          "doc": "Connect to Pipe"
+        },
+        {
+          "params": [
+            {
+              "name": "name",
+              "doc": "Name of filter type.",
+              "type": "String"
+            },
+            {
+              "name": "value",
+              "doc": "Value of filter type.",
+              "type": "String"
+            }
+          ],
+          "name": "addProperty",
+          "doc": "Add Property to specific pipe connector"
+        },
+        {
+          "params": [
+            {
+              "name": "id",
+              "doc": "Id as String",
+              "type": "String"
+            }
+          ],
+          "name": "setId",
+          "doc": "set Id of the module"
+        }
+      ]
     }
   ],
   "complexTypes": [],
