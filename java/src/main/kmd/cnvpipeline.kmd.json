@@ -64,12 +64,12 @@
               "type": "String"
             }
           ],
-          "name": "connect",
+          "name": "connectServer",
           "doc": "Connect to Pipe"
         },
         {
           "params": [],
-          "name": "disconnect",
+          "name": "disconnectServer",
           "doc": "Connect to Pipe"
         },
         {
