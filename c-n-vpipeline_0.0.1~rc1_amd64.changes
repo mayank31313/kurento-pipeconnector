@@ -16,17 +16,17 @@ Changes:
  .
    * Initial release.
 Checksums-Sha1:
- 76b98504f73afacccfbd257a7332e6d31faa179a 1011240 c-n-vpipeline-dbgsym_0.0.1~rc1_amd64.ddeb
- 9c8c450abd58c959431c15c1a35432b01dcaf090 4832 c-n-vpipeline-dev_0.0.1~rc1_amd64.deb
- 3d42c2d7e7534424ec99592501709c1f8faf48f5 25620 c-n-vpipeline_0.0.1~rc1_amd64.buildinfo
- 1a41cfc254ada316b30ca864ea2f50fee5cfb64c 43708 c-n-vpipeline_0.0.1~rc1_amd64.deb
+ 664f1cf4649efd9cb72ceda1ed9b9e883b8cfbde 1023324 c-n-vpipeline-dbgsym_0.0.1~rc1_amd64.ddeb
+ 9dd66b5575a884ff9088c153d8e37817d168a80f 4832 c-n-vpipeline-dev_0.0.1~rc1_amd64.deb
+ f38bfcd7f863dd460e7fcd744ef949b263faf5b2 25323 c-n-vpipeline_0.0.1~rc1_amd64.buildinfo
+ 9c079b84557f02af644625ff5d66bb9c07206acd 44000 c-n-vpipeline_0.0.1~rc1_amd64.deb
 Checksums-Sha256:
- 6d4bb15b4df0be023b93d095c5c1a935855bccd132cab7755130b1100bec503b 1011240 c-n-vpipeline-dbgsym_0.0.1~rc1_amd64.ddeb
- 33e7648f0e51c097e1b0949341ef88a7384ff7e1b346f5ad40c83a61eaae9bde 4832 c-n-vpipeline-dev_0.0.1~rc1_amd64.deb
- b96683289088957066eb7f43129dc3a0441cf928307666dee68ae056440e9255 25620 c-n-vpipeline_0.0.1~rc1_amd64.buildinfo
- c8792e8f6c6f0bbe67f1610eb2874514373f8036bff1f2b5fa0028a0ed16a29c 43708 c-n-vpipeline_0.0.1~rc1_amd64.deb
+ 92d50a18dd3f406393f838f5fa4e00276ab3846b41139da0b252a7e9c6683e3f 1023324 c-n-vpipeline-dbgsym_0.0.1~rc1_amd64.ddeb
+ 6ce4b08b04bb557bddbb3f888393ede7d6c09cf1efa4804a1b29b060a56d9a9c 4832 c-n-vpipeline-dev_0.0.1~rc1_amd64.deb
+ 9febd77ea7558f2316bde3f85fa821bb3666097b76937fc60fec1159e31fc006 25323 c-n-vpipeline_0.0.1~rc1_amd64.buildinfo
+ c749a397a034aa55c4ab775cc4bab0ba7937e7172ea16e2341aa556921a3d814 44000 c-n-vpipeline_0.0.1~rc1_amd64.deb
 Files:
- 4d7c99099c61e305ae0e765dbfb905ed 1011240 debug optional c-n-vpipeline-dbgsym_0.0.1~rc1_amd64.ddeb
- c961fa48b95c1200b0ae98b634417ca7 4832 libdevel optional c-n-vpipeline-dev_0.0.1~rc1_amd64.deb
- 352d1cf3f048231fa63566e50728e613 25620 - optional c-n-vpipeline_0.0.1~rc1_amd64.buildinfo
- 5da5fe44799e088c4a861acaffdd2faf 43708 libs optional c-n-vpipeline_0.0.1~rc1_amd64.deb
+ 641343bf30061ea7ff0abd28f6c02d2b 1023324 debug optional c-n-vpipeline-dbgsym_0.0.1~rc1_amd64.ddeb
+ 35ac827211e9e0e8dd0e7d17b4ff1696 4832 libdevel optional c-n-vpipeline-dev_0.0.1~rc1_amd64.deb
+ 74394663de99bdadda1ee7b7048ffd6e 25323 - optional c-n-vpipeline_0.0.1~rc1_amd64.buildinfo
+ a6b01e6581a4c31fac84efd41aeb6eab 44000 libs optional c-n-vpipeline_0.0.1~rc1_amd64.deb
