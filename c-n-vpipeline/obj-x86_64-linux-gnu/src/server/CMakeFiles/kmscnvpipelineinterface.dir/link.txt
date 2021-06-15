@@ -1,0 +1,2 @@
+/usr/bin/ar qc libkmscnvpipelineinterface.a  CMakeFiles/kmscnvpipelineinterface.dir/interface/generated-cpp/CNVpipelineInternal.cpp.o CMakeFiles/kmscnvpipelineinterface.dir/interface/generated-cpp/CNVpipeline.cpp.o
+/usr/bin/ranlib libkmscnvpipelineinterface.a

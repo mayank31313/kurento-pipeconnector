@@ -1,0 +1,14 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include/kurento/modules/cnvpipeline
+
+Name: kmscnvpipeline
+Description: Kurento cnvpipeline Module
+Version: 0.0.1-dev
+URL:
+Requires: kmscore  kmselements  kmsfilters  
+Requires.private:
+Libs: -L${libdir} -lkmscnvpipelineimpl
+Libs.private:
+CFlags: -I${includedir}

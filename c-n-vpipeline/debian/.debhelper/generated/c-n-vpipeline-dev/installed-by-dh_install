@@ -1,0 +1,8 @@
+debian/tmp/usr/include/kurento/modules/cnvpipeline/CNVpipeline.hpp
+debian/tmp/usr/include/kurento/modules/cnvpipeline/CNVpipelineImpl.hpp
+debian/tmp/usr/include/kurento/modules/cnvpipeline/CNVpipelineImplFactory.hpp
+debian/tmp/usr/include/kurento/modules/cnvpipeline/CNVpipelineOpenCVImpl.hpp
+debian/tmp/usr/lib/x86_64-linux-gnu/libkmscnvpipelineimpl.so
+debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig/kmscnvpipeline.pc
+debian/tmp/usr/share/kurento/modules/cnvpipeline.kmd.json
+debian/tmp/usr/share/cmake-3.10/Modules/FindKMSCNVPIPELINE.cmake

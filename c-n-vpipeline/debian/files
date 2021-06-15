@@ -1,0 +1,4 @@
+c-n-vpipeline-dbgsym_0.0.1~rc1_amd64.ddeb debug optional
+c-n-vpipeline-dev_0.0.1~rc1_amd64.deb libdevel optional
+c-n-vpipeline_0.0.1~rc1_amd64.buildinfo - optional
+c-n-vpipeline_0.0.1~rc1_amd64.deb libs optional

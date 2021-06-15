@@ -1,0 +1,65 @@
+{
+  "remoteClasses": [
+    {
+      "name": "CNVpipeline",
+      "extends": "OpenCVFilter",
+      "doc": "CNVpipeline interface. Documentation about the module",
+      "constructor": {
+        "doc": "Create an element",
+        "params": [
+          {
+            "name": "mediaPipeline",
+            "doc": "the parent :rom:cls:`MediaPipeline`",
+            "type": "MediaPipeline",
+            "final": true
+          }
+        ]
+      },
+      "methods": [
+        {
+          "name": "connectServer",
+          "doc": "Connect to Pipe",
+          "params": [
+             {
+               "name": "server",
+               "type": "String"
+             }
+          ]
+        },
+        {
+          "name": "disconnectServer",
+          "doc": "Connect to Pipe",
+          "params": []
+        },
+        {
+          "name": "addProperty",
+          "doc": "Add Property to specific pipe connector",
+          "params": [
+            {
+              "name": "name",
+              "doc": "Name of filter type.",
+              "type": "String"
+            },
+            {
+              "name": "value",
+              "doc": "Value of filter type.",
+              "type": "String"
+            }
+
+          ]
+        },
+	{
+          "name": "setId",
+          "doc": "set Id of the module",
+          "params": [
+            {
+              "name": "id",
+              "doc": "Id as String",
+              "type": "String"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

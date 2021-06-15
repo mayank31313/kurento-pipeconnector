@@ -1,0 +1,13 @@
+Package: c-n-vpipeline-dbgsym
+Package-Type: ddeb
+Source: c-n-vpipeline
+Version: 0.0.1~rc1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Maintainer Name <maintainer.name@example.com>
+Installed-Size: 1088
+Depends: c-n-vpipeline (= 0.0.1~rc1)
+Section: debug
+Priority: optional
+Description: debug symbols for c-n-vpipeline
+Build-Ids: 36ae1ecc594eb38750bf65a0cfcc51fa40784534 d26f508b1a1191d74f52839d07589572a1c6e3b8

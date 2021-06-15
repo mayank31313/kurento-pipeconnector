@@ -1,0 +1,9 @@
+3f4b05cef1fe9bdbd8e47f7263aa2f7b  usr/include/kurento/modules/cnvpipeline/CNVpipeline.hpp
+7decb214c5ccfaee8148b496337b8525  usr/include/kurento/modules/cnvpipeline/CNVpipelineImpl.hpp
+5ba265976456fd82b1d35e66b6638f76  usr/include/kurento/modules/cnvpipeline/CNVpipelineImplFactory.hpp
+a44478ac5c95430e2963c639a2e9f029  usr/include/kurento/modules/cnvpipeline/CNVpipelineOpenCVImpl.hpp
+4cb38933770a418aa5527b08b42067c7  usr/lib/x86_64-linux-gnu/pkgconfig/kmscnvpipeline.pc
+79650c0675ab1d28b9104afd87f0fc88  usr/share/cmake-3.10/Modules/FindKMSCNVPIPELINE.cmake
+e3db3b93f277b053e473620426bbb661  usr/share/doc/c-n-vpipeline-dev/changelog.gz
+d41d8cd98f00b204e9800998ecf8427e  usr/share/doc/c-n-vpipeline-dev/copyright
+64850045ef7eee8e9d60e5d674ae60b5  usr/share/kurento/modules/cnvpipeline.kmd.json

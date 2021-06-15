@@ -1,0 +1,32 @@
+Source: c-n-vpipeline
+Priority: optional
+Maintainer: Maintainer Name <maintainer.name@example.com>
+Build-Depends: debhelper (>= 9),
+ build-essential,
+ cmake,
+ pkg-config,
+ kms-core-dev,
+ kms-elements-dev,
+ kms-filters-dev,
+ libopencv-dev
+Standards-Version: 4.0.0
+Homepage: https://www.example.com
+
+Package: c-n-vpipeline
+Architecture: any
+Section: libs
+Depends: ${shlibs:Depends},
+ ${misc:Depends}
+Description: Single line synopsis
+ Extended description over several lines.
+
+Package: c-n-vpipeline-dev
+Architecture: any
+Section: libdevel
+Depends: c-n-vpipeline (= ${binary:Version}),
+ kms-core-dev,
+ kms-elements-dev,
+ kms-filters-dev,
+ libopencv-dev
+Description: Single line synopsis
+ Extended description over several lines - Development files.

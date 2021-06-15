@@ -1,0 +1,12 @@
+Package: c-n-vpipeline-dev
+Source: c-n-vpipeline
+Version: 0.0.1~rc1
+Architecture: amd64
+Maintainer: Maintainer Name <maintainer.name@example.com>
+Installed-Size: 36
+Depends: c-n-vpipeline (= 0.0.1~rc1), kms-core-dev, kms-elements-dev, kms-filters-dev, libopencv-dev
+Section: libdevel
+Priority: optional
+Homepage: https://www.example.com
+Description: Single line synopsis
+ Extended description over several lines - Development files.
