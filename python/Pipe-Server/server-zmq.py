@@ -84,5 +84,3 @@ if __name__ == "__main__":
         thread.start()
 
     zmq.proxy(server_socket, worker_socket)
-
-
