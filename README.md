@@ -10,4 +10,4 @@ This project uses OpenCV and ZMQ, to process and apply OpenCV Algorithms on kure
 
 ### A High Level Overview of the Adapter
 
-![alt High Level Overview](img/hl.png "CNV Pipeline Adapter")
+<img src="img/hl.png" width="100%" />
