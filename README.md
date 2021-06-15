@@ -11,4 +11,4 @@ This project uses OpenCV and ZMQ, to process and apply OpenCV Algorithms on kure
 
 ### A High Level Overview of the Adapter
 
-<img src="img/hl.png" width="100%" />
+<img src="img/connector.png" width="100%" />
