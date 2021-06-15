@@ -1,5 +1,6 @@
 A Part of [Control Net](https://controlnet.ml)
 
+Get docker image from [here](https://hub.docker.com/repository/docker/mayank31313/kurento-additionalmodules).
 ## Technology Stack
 * Kurento Media Server
 * Zero MQ
