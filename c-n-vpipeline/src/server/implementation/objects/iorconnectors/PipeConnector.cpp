@@ -21,13 +21,16 @@ namespace ior{
 	PipeConnector::PipeConnector(){
 		PipeConnector::socket = zmq::socket_t(PipeConnector::ctx, zmq::socket_type::req);
 	}
-
+	void PipeConnector::setToken(const std::string &token){
+		PipeConnector::clientToken.clear();
+		PipeConnector::clientToken.append(token);
+	}
 	void PipeConnector::connectServer(const std::string &server){
 		PipeConnector::addProperty("server", server);
 
 		PipeConnector::socket.connect(server);
-		PipeConnector::sendMessage("1");
-		PipeConnector::clientToken.clear();
+		PipeConnector::sendMessage(PipeConnector::clientToken);
+
 		PipeConnector::receiveMessage(PipeConnector::clientToken);
 	}
 

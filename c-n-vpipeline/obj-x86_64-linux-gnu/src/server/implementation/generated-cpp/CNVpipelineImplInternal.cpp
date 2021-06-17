@@ -42,6 +42,17 @@ CNVpipelineImpl::invoke (std::shared_ptr<MediaObjectImpl> obj, const std::string
     return;
   }
 
+  if (methodName == "setToken") {
+    kurento::JsonSerializer s (false);
+    CNVpipelineMethodSetToken method;
+
+    s.JsonValue = params;
+    method.Serialize (s);
+
+    method.invoke (std::dynamic_pointer_cast<CNVpipeline> (obj) );
+    return;
+  }
+
   if (methodName == "disconnectServer") {
     kurento::JsonSerializer s (false);
     CNVpipelineMethodDisconnectServer method;

@@ -51,7 +51,7 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   foreach(file
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libkmscnvpipelineimpl.so.0"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libkmscnvpipelineimpl.so"
       )
@@ -63,12 +63,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE SHARED_LIBRARY FILES
-    "/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/src/server/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d"
+    "/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/src/server/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3"
     "/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/src/server/libkmscnvpipelineimpl.so.0"
     "/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/src/server/libkmscnvpipelineimpl.so"
     )
   foreach(file
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libkmscnvpipelineimpl.so.0"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libkmscnvpipelineimpl.so"
       )

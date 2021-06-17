@@ -46,6 +46,7 @@ public:
 
 
   virtual void connectServer (const std::string &server) = 0;
+  virtual void setToken (const std::string &token) = 0;
   virtual void disconnectServer () = 0;
   virtual void addProperty (const std::string &name, const std::string &value) = 0;
   virtual void setId (const std::string &id) = 0;

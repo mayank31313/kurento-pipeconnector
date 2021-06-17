@@ -206,31 +206,31 @@ kmscnvpipelineimpl_OBJECTS = \
 # External object files for target kmscnvpipelineimpl
 kmscnvpipelineimpl_EXTERNAL_OBJECTS =
 
-src/server/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d: src/server/CMakeFiles/kmscnvpipelineimpl.dir/implementation/objects/iorconnectors/PipeConnector.cpp.o
-src/server/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d: src/server/CMakeFiles/kmscnvpipelineimpl.dir/implementation/objects/CNVpipelineImpl.cpp.o
-src/server/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d: src/server/CMakeFiles/kmscnvpipelineimpl.dir/implementation/objects/CNVpipelineOpenCVImpl.cpp.o
-src/server/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d: src/server/CMakeFiles/kmscnvpipelineimpl.dir/implementation/generated-cpp/SerializerExpanderCnvpipeline.cpp.o
-src/server/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d: src/server/CMakeFiles/kmscnvpipelineimpl.dir/implementation/generated-cpp/CNVpipelineImplInternal.cpp.o
-src/server/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d: src/server/CMakeFiles/kmscnvpipelineimpl.dir/build.make
-src/server/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d: /usr/lib/x86_64-linux-gnu/libkmselementsimpl.so
-src/server/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d: /usr/lib/x86_64-linux-gnu/libkmsfiltersimpl.so
-src/server/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d: /usr/lib/x86_64-linux-gnu/libkmselementsimpl.so
-src/server/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d: src/server/libkmscnvpipelineinterface.a
-src/server/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d: /usr/local/lib/libzmq.so.5.2.5
-src/server/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d: /usr/lib/x86_64-linux-gnu/libsodium.so
-src/server/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d: /usr/lib/x86_64-linux-gnu/libkmselementsimpl.so
-src/server/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d: /usr/lib/x86_64-linux-gnu/libkmsfiltersimpl.so
-src/server/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d: /usr/lib/x86_64-linux-gnu/libkmselementsimpl.so
-src/server/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d: /usr/lib/x86_64-linux-gnu/libkmsfiltersimpl.so
-src/server/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d: src/server/CMakeFiles/kmscnvpipelineimpl.dir/link.txt
+src/server/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3: src/server/CMakeFiles/kmscnvpipelineimpl.dir/implementation/objects/iorconnectors/PipeConnector.cpp.o
+src/server/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3: src/server/CMakeFiles/kmscnvpipelineimpl.dir/implementation/objects/CNVpipelineImpl.cpp.o
+src/server/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3: src/server/CMakeFiles/kmscnvpipelineimpl.dir/implementation/objects/CNVpipelineOpenCVImpl.cpp.o
+src/server/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3: src/server/CMakeFiles/kmscnvpipelineimpl.dir/implementation/generated-cpp/SerializerExpanderCnvpipeline.cpp.o
+src/server/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3: src/server/CMakeFiles/kmscnvpipelineimpl.dir/implementation/generated-cpp/CNVpipelineImplInternal.cpp.o
+src/server/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3: src/server/CMakeFiles/kmscnvpipelineimpl.dir/build.make
+src/server/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3: /usr/lib/x86_64-linux-gnu/libkmselementsimpl.so
+src/server/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3: /usr/lib/x86_64-linux-gnu/libkmsfiltersimpl.so
+src/server/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3: /usr/lib/x86_64-linux-gnu/libkmselementsimpl.so
+src/server/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3: src/server/libkmscnvpipelineinterface.a
+src/server/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3: /usr/local/lib/libzmq.so.5.2.5
+src/server/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3: /usr/lib/x86_64-linux-gnu/libsodium.so
+src/server/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3: /usr/lib/x86_64-linux-gnu/libkmselementsimpl.so
+src/server/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3: /usr/lib/x86_64-linux-gnu/libkmsfiltersimpl.so
+src/server/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3: /usr/lib/x86_64-linux-gnu/libkmselementsimpl.so
+src/server/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3: /usr/lib/x86_64-linux-gnu/libkmsfiltersimpl.so
+src/server/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3: src/server/CMakeFiles/kmscnvpipelineimpl.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library libkmscnvpipelineimpl.so"
 	cd /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/src/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kmscnvpipelineimpl.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/src/server && $(CMAKE_COMMAND) -E cmake_symlink_library "libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d" libkmscnvpipelineimpl.so.0 libkmscnvpipelineimpl.so
+	cd /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/src/server && $(CMAKE_COMMAND) -E cmake_symlink_library "libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3" libkmscnvpipelineimpl.so.0 libkmscnvpipelineimpl.so
 
-src/server/libkmscnvpipelineimpl.so.0: src/server/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d
+src/server/libkmscnvpipelineimpl.so.0: src/server/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3
 	@$(CMAKE_COMMAND) -E touch_nocreate src/server/libkmscnvpipelineimpl.so.0
 
-src/server/libkmscnvpipelineimpl.so: src/server/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d
+src/server/libkmscnvpipelineimpl.so: src/server/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3
 	@$(CMAKE_COMMAND) -E touch_nocreate src/server/libkmscnvpipelineimpl.so
 
 # Rule to build all files generated by this target.

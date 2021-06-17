@@ -214,7 +214,7 @@ src/server/libkmscnvpipelinemodule.so: src/server/CMakeFiles/kmscnvpipelinemodul
 src/server/libkmscnvpipelinemodule.so: src/server/CMakeFiles/kmscnvpipelinemodule.dir/module_descriptor.cpp.o
 src/server/libkmscnvpipelinemodule.so: src/server/CMakeFiles/kmscnvpipelinemodule.dir/module_generation_time.cpp.o
 src/server/libkmscnvpipelinemodule.so: src/server/CMakeFiles/kmscnvpipelinemodule.dir/build.make
-src/server/libkmscnvpipelinemodule.so: src/server/libkmscnvpipelineimpl.so.0.0.1~4.gf7b2d8d
+src/server/libkmscnvpipelinemodule.so: src/server/libkmscnvpipelineimpl.so.0.0.1~11.g5a813a3
 src/server/libkmscnvpipelinemodule.so: src/server/libkmscnvpipelineinterface.a
 src/server/libkmscnvpipelinemodule.so: /usr/lib/x86_64-linux-gnu/libkmselementsimpl.so
 src/server/libkmscnvpipelinemodule.so: /usr/lib/x86_64-linux-gnu/libkmsfiltersimpl.so

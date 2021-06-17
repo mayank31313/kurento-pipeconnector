@@ -26,6 +26,16 @@
              }
           ]
         },
+	{
+          "name": "setToken",
+          "doc": "set token",
+          "params": [
+             {
+               "name": "token",
+               "type": "String"
+             }
+          ]
+        },
         {
           "name": "disconnectServer",
           "doc": "Connect to Pipe",

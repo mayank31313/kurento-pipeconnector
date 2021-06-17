@@ -28,15 +28,15 @@ The CXX compiler identification is GNU, found in "/home/klaus/Desktop/kurento-pl
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_73c9f/fast"
+Run Build Command:"/usr/bin/make" "cmTC_3547d/fast"
 make[2]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_73c9f.dir/build.make CMakeFiles/cmTC_73c9f.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_3547d.dir/build.make CMakeFiles/cmTC_3547d.dir/build
 make[3]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_73c9f.dir/testCCompiler.c.o
-/usr/bin/cc   -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -o CMakeFiles/cmTC_73c9f.dir/testCCompiler.c.o   -c /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_73c9f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73c9f.dir/link.txt --verbose=1
-/usr/bin/cc -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro  -rdynamic CMakeFiles/cmTC_73c9f.dir/testCCompiler.c.o  -o cmTC_73c9f 
+Building C object CMakeFiles/cmTC_3547d.dir/testCCompiler.c.o
+/usr/bin/cc   -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -o CMakeFiles/cmTC_3547d.dir/testCCompiler.c.o   -c /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_3547d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3547d.dir/link.txt --verbose=1
+/usr/bin/cc -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro  -rdynamic CMakeFiles/cmTC_3547d.dir/testCCompiler.c.o  -o cmTC_3547d 
 make[3]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 
@@ -44,15 +44,15 @@ make[2]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8f89c/fast"
+Run Build Command:"/usr/bin/make" "cmTC_e1f00/fast"
 make[2]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_8f89c.dir/build.make CMakeFiles/cmTC_8f89c.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_e1f00.dir/build.make CMakeFiles/cmTC_e1f00.dir/build
 make[3]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8f89c.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -o CMakeFiles/cmTC_8f89c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_8f89c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f89c.dir/link.txt --verbose=1
-/usr/bin/cc -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro -v -rdynamic CMakeFiles/cmTC_8f89c.dir/CMakeCCompilerABI.c.o  -o cmTC_8f89c 
+Building C object CMakeFiles/cmTC_e1f00.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -o CMakeFiles/cmTC_e1f00.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_e1f00
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1f00.dir/link.txt --verbose=1
+/usr/bin/cc -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro -v -rdynamic CMakeFiles/cmTC_e1f00.dir/CMakeCCompilerABI.c.o  -o cmTC_e1f00 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -64,9 +64,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-g' '-O2' '-fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=.' '-fstack-protector-strong' '-Wformat=1' '-Werror=format-security' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-rdynamic' '-o' 'cmTC_8f89c' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc93RfN2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8f89c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_8f89c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-g' '-O2' '-fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=.' '-fstack-protector-strong' '-Wformat=1' '-Werror=format-security' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-rdynamic' '-o' 'cmTC_8f89c' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-g' '-O2' '-fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=.' '-fstack-protector-strong' '-Wformat=1' '-Werror=format-security' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-rdynamic' '-o' 'cmTC_e1f00' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5H36LU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e1f00 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_e1f00.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-g' '-O2' '-fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=.' '-fstack-protector-strong' '-Wformat=1' '-Werror=format-security' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-rdynamic' '-o' 'cmTC_e1f00' '-mtune=generic' '-march=x86-64'
 make[3]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 
@@ -75,15 +75,15 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8f89c/fast"]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e1f00/fast"]
   ignore line: [make[2]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8f89c.dir/build.make CMakeFiles/cmTC_8f89c.dir/build]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e1f00.dir/build.make CMakeFiles/cmTC_e1f00.dir/build]
   ignore line: [make[3]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_8f89c.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -o CMakeFiles/cmTC_8f89c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_8f89c]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f89c.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro -v -rdynamic CMakeFiles/cmTC_8f89c.dir/CMakeCCompilerABI.c.o  -o cmTC_8f89c ]
+  ignore line: [Building C object CMakeFiles/cmTC_e1f00.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -o CMakeFiles/cmTC_e1f00.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_e1f00]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1f00.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro -v -rdynamic CMakeFiles/cmTC_e1f00.dir/CMakeCCompilerABI.c.o  -o cmTC_e1f00 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -95,13 +95,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=.' '-fstack-protector-strong' '-Wformat=1' '-Werror=format-security' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-rdynamic' '-o' 'cmTC_8f89c' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc93RfN2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8f89c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_8f89c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=.' '-fstack-protector-strong' '-Wformat=1' '-Werror=format-security' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-rdynamic' '-o' 'cmTC_e1f00' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5H36LU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e1f00 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_e1f00.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc93RfN2.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc5H36LU.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -120,7 +120,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_8f89c] ==> ignore
+    arg [cmTC_e1f00] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -134,7 +134,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
     arg [-Bsymbolic-functions] ==> ignore
     arg [-zrelro] ==> ignore
-    arg [CMakeFiles/cmTC_8f89c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_e1f00.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -166,15 +166,15 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_aad5b/fast"
+Run Build Command:"/usr/bin/make" "cmTC_afc88/fast"
 make[2]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_aad5b.dir/build.make CMakeFiles/cmTC_aad5b.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_afc88.dir/build.make CMakeFiles/cmTC_afc88.dir/build
 make[3]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_aad5b.dir/feature_tests.c.o
-/usr/bin/cc   -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -std=c11 -o CMakeFiles/cmTC_aad5b.dir/feature_tests.c.o   -c /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/feature_tests.c
-Linking C executable cmTC_aad5b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aad5b.dir/link.txt --verbose=1
-/usr/bin/cc -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro  -rdynamic CMakeFiles/cmTC_aad5b.dir/feature_tests.c.o  -o cmTC_aad5b 
+Building C object CMakeFiles/cmTC_afc88.dir/feature_tests.c.o
+/usr/bin/cc   -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -std=c11 -o CMakeFiles/cmTC_afc88.dir/feature_tests.c.o   -c /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/feature_tests.c
+Linking C executable cmTC_afc88
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afc88.dir/link.txt --verbose=1
+/usr/bin/cc -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro  -rdynamic CMakeFiles/cmTC_afc88.dir/feature_tests.c.o  -o cmTC_afc88 
 make[3]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 
@@ -188,15 +188,15 @@ make[2]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cd8ab/fast"
+Run Build Command:"/usr/bin/make" "cmTC_373e0/fast"
 make[2]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_cd8ab.dir/build.make CMakeFiles/cmTC_cd8ab.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_373e0.dir/build.make CMakeFiles/cmTC_373e0.dir/build
 make[3]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cd8ab.dir/feature_tests.c.o
-/usr/bin/cc   -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -std=c99 -o CMakeFiles/cmTC_cd8ab.dir/feature_tests.c.o   -c /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/feature_tests.c
-Linking C executable cmTC_cd8ab
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd8ab.dir/link.txt --verbose=1
-/usr/bin/cc -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro  -rdynamic CMakeFiles/cmTC_cd8ab.dir/feature_tests.c.o  -o cmTC_cd8ab 
+Building C object CMakeFiles/cmTC_373e0.dir/feature_tests.c.o
+/usr/bin/cc   -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -std=c99 -o CMakeFiles/cmTC_373e0.dir/feature_tests.c.o   -c /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/feature_tests.c
+Linking C executable cmTC_373e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_373e0.dir/link.txt --verbose=1
+/usr/bin/cc -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro  -rdynamic CMakeFiles/cmTC_373e0.dir/feature_tests.c.o  -o cmTC_373e0 
 make[3]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 
@@ -210,15 +210,15 @@ make[2]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cfeb1/fast"
+Run Build Command:"/usr/bin/make" "cmTC_783fa/fast"
 make[2]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_cfeb1.dir/build.make CMakeFiles/cmTC_cfeb1.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_783fa.dir/build.make CMakeFiles/cmTC_783fa.dir/build
 make[3]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cfeb1.dir/feature_tests.c.o
-/usr/bin/cc   -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -std=c90 -o CMakeFiles/cmTC_cfeb1.dir/feature_tests.c.o   -c /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/feature_tests.c
-Linking C executable cmTC_cfeb1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfeb1.dir/link.txt --verbose=1
-/usr/bin/cc -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro  -rdynamic CMakeFiles/cmTC_cfeb1.dir/feature_tests.c.o  -o cmTC_cfeb1 
+Building C object CMakeFiles/cmTC_783fa.dir/feature_tests.c.o
+/usr/bin/cc   -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -std=c90 -o CMakeFiles/cmTC_783fa.dir/feature_tests.c.o   -c /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/feature_tests.c
+Linking C executable cmTC_783fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_783fa.dir/link.txt --verbose=1
+/usr/bin/cc -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro  -rdynamic CMakeFiles/cmTC_783fa.dir/feature_tests.c.o  -o cmTC_783fa 
 make[3]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 
@@ -230,15 +230,15 @@ make[2]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1dda7/fast"
+Run Build Command:"/usr/bin/make" "cmTC_f9253/fast"
 make[2]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_1dda7.dir/build.make CMakeFiles/cmTC_1dda7.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_f9253.dir/build.make CMakeFiles/cmTC_f9253.dir/build
 make[3]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1dda7.dir/testCXXCompiler.cxx.o
-/usr/bin/c++    -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -o CMakeFiles/cmTC_1dda7.dir/testCXXCompiler.cxx.o -c /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_1dda7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1dda7.dir/link.txt --verbose=1
-/usr/bin/c++  -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro  -rdynamic CMakeFiles/cmTC_1dda7.dir/testCXXCompiler.cxx.o  -o cmTC_1dda7 
+Building CXX object CMakeFiles/cmTC_f9253.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -o CMakeFiles/cmTC_f9253.dir/testCXXCompiler.cxx.o -c /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f9253
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9253.dir/link.txt --verbose=1
+/usr/bin/c++  -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro  -rdynamic CMakeFiles/cmTC_f9253.dir/testCXXCompiler.cxx.o  -o cmTC_f9253 
 make[3]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 
@@ -246,15 +246,15 @@ make[2]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8fe5d/fast"
+Run Build Command:"/usr/bin/make" "cmTC_605cd/fast"
 make[2]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_8fe5d.dir/build.make CMakeFiles/cmTC_8fe5d.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_605cd.dir/build.make CMakeFiles/cmTC_605cd.dir/build
 make[3]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8fe5d.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++    -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -o CMakeFiles/cmTC_8fe5d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_8fe5d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fe5d.dir/link.txt --verbose=1
-/usr/bin/c++  -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro -v -rdynamic CMakeFiles/cmTC_8fe5d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8fe5d 
+Building CXX object CMakeFiles/cmTC_605cd.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -o CMakeFiles/cmTC_605cd.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_605cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_605cd.dir/link.txt --verbose=1
+/usr/bin/c++  -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro -v -rdynamic CMakeFiles/cmTC_605cd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_605cd 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -266,9 +266,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-g' '-O2' '-fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=.' '-fstack-protector-strong' '-Wformat=1' '-Werror=format-security' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-rdynamic' '-o' 'cmTC_8fe5d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccW8ahNi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8fe5d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_8fe5d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-g' '-O2' '-fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=.' '-fstack-protector-strong' '-Wformat=1' '-Werror=format-security' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-rdynamic' '-o' 'cmTC_8fe5d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-g' '-O2' '-fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=.' '-fstack-protector-strong' '-Wformat=1' '-Werror=format-security' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-rdynamic' '-o' 'cmTC_605cd' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6TUV8S.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_605cd /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_605cd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-g' '-O2' '-fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=.' '-fstack-protector-strong' '-Wformat=1' '-Werror=format-security' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-rdynamic' '-o' 'cmTC_605cd' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[3]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 
@@ -277,15 +277,15 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8fe5d/fast"]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_605cd/fast"]
   ignore line: [make[2]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8fe5d.dir/build.make CMakeFiles/cmTC_8fe5d.dir/build]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_605cd.dir/build.make CMakeFiles/cmTC_605cd.dir/build]
   ignore line: [make[3]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_8fe5d.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++    -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -o CMakeFiles/cmTC_8fe5d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_8fe5d]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fe5d.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++  -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro -v -rdynamic CMakeFiles/cmTC_8fe5d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8fe5d ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_605cd.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -o CMakeFiles/cmTC_605cd.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_605cd]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_605cd.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro -v -rdynamic CMakeFiles/cmTC_605cd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_605cd ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -297,13 +297,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=.' '-fstack-protector-strong' '-Wformat=1' '-Werror=format-security' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-rdynamic' '-o' 'cmTC_8fe5d' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccW8ahNi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8fe5d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_8fe5d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=.' '-fstack-protector-strong' '-Wformat=1' '-Werror=format-security' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-rdynamic' '-o' 'cmTC_605cd' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6TUV8S.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_605cd /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_605cd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccW8ahNi.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc6TUV8S.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -322,7 +322,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_8fe5d] ==> ignore
+    arg [cmTC_605cd] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -336,7 +336,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
     arg [-Bsymbolic-functions] ==> ignore
     arg [-zrelro] ==> ignore
-    arg [CMakeFiles/cmTC_8fe5d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_605cd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -364,15 +364,15 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6f1a2/fast"
+Run Build Command:"/usr/bin/make" "cmTC_3271e/fast"
 make[2]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_6f1a2.dir/build.make CMakeFiles/cmTC_6f1a2.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_3271e.dir/build.make CMakeFiles/cmTC_3271e.dir/build
 make[3]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6f1a2.dir/feature_tests.cxx.o
-/usr/bin/c++    -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -std=c++1z -o CMakeFiles/cmTC_6f1a2.dir/feature_tests.cxx.o -c /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_6f1a2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f1a2.dir/link.txt --verbose=1
-/usr/bin/c++  -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro  -rdynamic CMakeFiles/cmTC_6f1a2.dir/feature_tests.cxx.o  -o cmTC_6f1a2 
+Building CXX object CMakeFiles/cmTC_3271e.dir/feature_tests.cxx.o
+/usr/bin/c++    -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -std=c++1z -o CMakeFiles/cmTC_3271e.dir/feature_tests.cxx.o -c /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3271e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3271e.dir/link.txt --verbose=1
+/usr/bin/c++  -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro  -rdynamic CMakeFiles/cmTC_3271e.dir/feature_tests.cxx.o  -o cmTC_3271e 
 make[3]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 
@@ -439,15 +439,15 @@ make[2]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4d344/fast"
+Run Build Command:"/usr/bin/make" "cmTC_d589b/fast"
 make[2]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_4d344.dir/build.make CMakeFiles/cmTC_4d344.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_d589b.dir/build.make CMakeFiles/cmTC_d589b.dir/build
 make[3]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4d344.dir/feature_tests.cxx.o
-/usr/bin/c++    -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -std=c++14 -o CMakeFiles/cmTC_4d344.dir/feature_tests.cxx.o -c /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4d344
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d344.dir/link.txt --verbose=1
-/usr/bin/c++  -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro  -rdynamic CMakeFiles/cmTC_4d344.dir/feature_tests.cxx.o  -o cmTC_4d344 
+Building CXX object CMakeFiles/cmTC_d589b.dir/feature_tests.cxx.o
+/usr/bin/c++    -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -std=c++14 -o CMakeFiles/cmTC_d589b.dir/feature_tests.cxx.o -c /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d589b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d589b.dir/link.txt --verbose=1
+/usr/bin/c++  -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro  -rdynamic CMakeFiles/cmTC_d589b.dir/feature_tests.cxx.o  -o cmTC_d589b 
 make[3]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 
@@ -514,15 +514,15 @@ make[2]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6d5ca/fast"
+Run Build Command:"/usr/bin/make" "cmTC_a7c76/fast"
 make[2]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_6d5ca.dir/build.make CMakeFiles/cmTC_6d5ca.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_a7c76.dir/build.make CMakeFiles/cmTC_a7c76.dir/build
 make[3]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6d5ca.dir/feature_tests.cxx.o
-/usr/bin/c++    -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -std=c++11 -o CMakeFiles/cmTC_6d5ca.dir/feature_tests.cxx.o -c /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_6d5ca
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d5ca.dir/link.txt --verbose=1
-/usr/bin/c++  -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro  -rdynamic CMakeFiles/cmTC_6d5ca.dir/feature_tests.cxx.o  -o cmTC_6d5ca 
+Building CXX object CMakeFiles/cmTC_a7c76.dir/feature_tests.cxx.o
+/usr/bin/c++    -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -std=c++11 -o CMakeFiles/cmTC_a7c76.dir/feature_tests.cxx.o -c /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a7c76
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7c76.dir/link.txt --verbose=1
+/usr/bin/c++  -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro  -rdynamic CMakeFiles/cmTC_a7c76.dir/feature_tests.cxx.o  -o cmTC_a7c76 
 make[3]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 
@@ -589,15 +589,15 @@ make[2]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5ea47/fast"
+Run Build Command:"/usr/bin/make" "cmTC_5e48d/fast"
 make[2]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_5ea47.dir/build.make CMakeFiles/cmTC_5ea47.dir/build
+/usr/bin/make -f CMakeFiles/cmTC_5e48d.dir/build.make CMakeFiles/cmTC_5e48d.dir/build
 make[3]: Entering directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5ea47.dir/feature_tests.cxx.o
-/usr/bin/c++    -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -std=c++98 -o CMakeFiles/cmTC_5ea47.dir/feature_tests.cxx.o -c /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_5ea47
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ea47.dir/link.txt --verbose=1
-/usr/bin/c++  -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro  -rdynamic CMakeFiles/cmTC_5ea47.dir/feature_tests.cxx.o  -o cmTC_5ea47 
+Building CXX object CMakeFiles/cmTC_5e48d.dir/feature_tests.cxx.o
+/usr/bin/c++    -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -std=c++98 -o CMakeFiles/cmTC_5e48d.dir/feature_tests.cxx.o -c /home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5e48d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e48d.dir/link.txt --verbose=1
+/usr/bin/c++  -g -O2 -fdebug-prefix-map=/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -Wl,-Bsymbolic-functions -Wl,-z,relro  -rdynamic CMakeFiles/cmTC_5e48d.dir/feature_tests.cxx.o  -o cmTC_5e48d 
 make[3]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 make[2]: Leaving directory '/home/klaus/Desktop/kurento-plugins/PipeConnector/c-n-vpipeline/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 

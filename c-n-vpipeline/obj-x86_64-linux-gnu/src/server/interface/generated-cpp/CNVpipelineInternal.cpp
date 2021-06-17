@@ -46,6 +46,39 @@ void CNVpipelineMethodConnectServer::Serialize (kurento::JsonSerializer &s)
   }
 }
 
+void CNVpipelineMethodSetToken::invoke (std::shared_ptr<CNVpipeline> obj)
+{
+  if (!obj) {
+    throw KurentoException (MEDIA_OBJECT_NOT_FOUND, "Invalid object while invoking method CNVpipeline::setToken");
+  }
+
+  return obj->setToken (token);
+}
+
+void CNVpipelineMethodSetToken::Serialize (kurento::JsonSerializer &s)
+{
+  if (s.IsWriter) {
+    s.SerializeNVP (token);
+
+  } else {
+    if (s.JsonValue.isNull ()) {
+      throw KurentoException (MARSHALL_ERROR,
+                              "'operationParams' is required");
+    } else if (!s.JsonValue.isObject ()){
+      throw KurentoException (MARSHALL_ERROR,
+                              "'operationParams' should be an object");
+    }
+
+    if (!s.JsonValue.isMember ("token") || !s.JsonValue["token"].isConvertibleTo (Json::ValueType::stringValue) ) {
+      throw KurentoException (MARSHALL_ERROR,
+                              "'token' parameter should be a string");
+    }
+
+    s.SerializeNVP (token);
+
+  }
+}
+
 void CNVpipelineMethodDisconnectServer::invoke (std::shared_ptr<CNVpipeline> obj)
 {
   if (!obj) {

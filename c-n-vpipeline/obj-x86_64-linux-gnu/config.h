@@ -2,7 +2,7 @@
 #define __C_N_VPIPELINE_CONFIG_H__
 
 /* Version */
-#define VERSION "0.0.1~4.gf7b2d8d"
+#define VERSION "0.0.1~11.g5a813a3"
 
 /* Package name */
 #define PACKAGE "c-n-vpipeline"

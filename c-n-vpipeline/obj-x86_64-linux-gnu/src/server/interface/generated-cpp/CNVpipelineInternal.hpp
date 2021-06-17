@@ -43,6 +43,27 @@ private:
   std::string server;
 };
 
+class CNVpipelineMethodSetToken
+{
+public:
+  CNVpipelineMethodSetToken() = default;
+  ~CNVpipelineMethodSetToken() = default;
+
+  void invoke (std::shared_ptr<CNVpipeline> obj);
+  void Serialize (JsonSerializer &serializer);
+
+  std::string getToken () {
+    return token;
+  }
+
+  void setToken (const std::string &token) {
+    this->token = token;
+  }
+
+private:
+  std::string token;
+};
+
 class CNVpipelineMethodDisconnectServer
 {
 public:

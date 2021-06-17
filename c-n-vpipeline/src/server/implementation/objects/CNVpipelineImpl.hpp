@@ -57,6 +57,7 @@ public:
   void disconnectServer();
   void addProperty(const std::string &name, const std::string &value);
   void setId(const std::string &id);
+  void setToken(const std::string &token);
 private:
 
   class StaticConstructor

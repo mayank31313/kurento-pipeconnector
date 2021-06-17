@@ -18,6 +18,7 @@ namespace ior{
 	public:
 		PipeConnector();
 		void connectServer(const std::string &server);
+		void setToken(const std::string &token);
 		void disconnectServer();
 		void send_image(cv::Mat &mat);
 		cv::Mat receiveImage();

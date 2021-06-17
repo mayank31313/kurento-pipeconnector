@@ -26,7 +26,6 @@ public:
   CNVpipelineOpenCVImpl ();
   virtual ~CNVpipelineOpenCVImpl();
   virtual void process (cv::Mat &mat);
-
   void setId(const std::string &id);
 };
 

@@ -49,6 +49,9 @@ void CNVpipelineImpl::addProperty(const std::string &name, const std::string &va
 void CNVpipelineImpl::setId(const std::string &id){
 	CNVpipelineOpenCVImpl::setId(id);
 }
+void CNVpipelineImpl::setToken(const std::string &token){
+	CNVpipelineOpenCVImpl::setToken(token);
+}
 
 } /* cnvpipeline */
 } /* module */
