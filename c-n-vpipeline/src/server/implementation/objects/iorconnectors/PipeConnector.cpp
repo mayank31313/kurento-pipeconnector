@@ -27,11 +27,7 @@ namespace ior{
 	}
 	void PipeConnector::connectServer(const std::string &server){
 		PipeConnector::addProperty("server", server);
-
 		PipeConnector::socket.connect(server);
-		PipeConnector::sendMessage(PipeConnector::clientToken);
-
-		PipeConnector::receiveMessage(PipeConnector::clientToken);
 	}
 
 	void PipeConnector::disconnectServer(){

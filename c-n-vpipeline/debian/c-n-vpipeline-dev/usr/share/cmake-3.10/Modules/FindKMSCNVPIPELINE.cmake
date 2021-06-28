@@ -5,10 +5,10 @@
 #
 #=============================================================================
 
-set(PACKAGE_VERSION "0.0.1~11.g5a813a3")
+set(PACKAGE_VERSION "0.0.1~15.ga375853")
 set(KMSCNVPIPELINE_VERSION ${PACKAGE_VERSION})
 
-message (STATUS "Looking for KMSCNVPIPELINE: 0.0.1~11.g5a813a3")
+message (STATUS "Looking for KMSCNVPIPELINE: 0.0.1~15.ga375853")
 
 include (GenericFind)
 
