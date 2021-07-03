@@ -1,0 +1,10 @@
+connectors:
+  path:
+    - connectors
+server:
+  zmq:
+    server: 192.168.66.3
+    port: 5555
+  http:
+    server: 192.168.66.3
+    port: 8753

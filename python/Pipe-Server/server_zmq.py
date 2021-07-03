@@ -1,9 +1,13 @@
-import socket
+import importlib
 import threading
-
+import multiprocessing
 import cv2, base64
 import numpy as np
 import zmq
+import time
+import os
+
+from yaml import load, Loader
 
 def decode(encodedImage):
     encodedImage = base64.b64decode(encodedImage)
@@ -17,19 +21,10 @@ def encode(image):
     im_b64 = base64.b64encode(im_bytes)
     return im_b64
 
-def compute(image):
-    image = cv2.cvtColor(image, cv2.COLOR_BGRA2GRAY)
-    image = cv2.Canny(image, 100, 200)
-    image = cv2.cvtColor(image, cv2.COLOR_GRAY2BGR)
-    return image
+users_info = dict()
+INCREMENT_VAR = 10240
+# executor = dict()
 
-user_info = dict()
-
-class UserInfo:
-    def __init__(self, token, modal, layers):
-        self.modal = modal
-        self.layers = layers
-        self.token = token
 
 def worker_routine(worker_url, thread_count):
     context = zmq.Context.instance()
@@ -39,18 +34,12 @@ def worker_routine(worker_url, thread_count):
     print("Listening for connections")
     while True:
         client_data = socket.recv_multipart()
-        if client_data[1] == b"1" and client_data[0] == b"":
-            token = "default"
-            user_info[token] = UserInfo(token=token, modal="testmodel", layers=[compute])
-            socket.send_multipart([token.encode()])
-            continue;
-
-        client_info, message = user_info[client_data[0].decode()], client_data[1:]
+        layers, message = users_info[client_data[0].decode()], client_data[1:]
         message = b"".join(message)
 
         image = decode(message)
-        for layer in client_info.layers:
-            image = layer(image)
+        for layer in layers:
+            image = layer.process(frame=image)['frame']
         message = encode(image)
 
         output_message = []
@@ -64,8 +53,8 @@ def worker_routine(worker_url, thread_count):
         output_message.append(message[start_index:])
         socket.send_multipart(output_message)
 
-if __name__ == "__main__":
-    server_url = "tcp://*:5555"
+def start(queue, executor, server, port, **kwargs):
+    server_url = "tcp://*:" + str(port)
     worker_url = "inproc://worker"
 
     context = zmq.Context.instance()
@@ -75,12 +64,24 @@ if __name__ == "__main__":
     worker_socket = context.socket(zmq.DEALER)
     worker_socket.bind(worker_url)
 
-    INCREMENT_VAR = 10240
+    def localStoreThread():
+        while True:
+            if queue.empty():
+                time.sleep(0.5)
+                continue
 
-    # Launch pool of worker threads
+            data = queue.get()
+            layers = []
+            for pipeElement in data['pipeline']:
+                layers.append(executor[pipeElement['name']])
+            users_info[data['token']] = layers
+
+    threading.Thread(target=localStoreThread).start()
     for i in range(5):
-        thread = threading.Thread(target=worker_routine, args=(worker_url,i))
+        thread = threading.Thread(target=worker_routine, args=(worker_url, i))
         thread.daemon = True
         thread.start()
 
     zmq.proxy(server_socket, worker_socket)
+if __name__ == "__main__":
+    start(multiprocessing.JoinableQueue(), "./config.yml")
