@@ -1,30 +1,13 @@
 import importlib
 import threading
 import multiprocessing
-import cv2, base64
-import numpy as np
 import zmq
 import time
-import os
-
-from yaml import load, Loader
-
-def decode(encodedImage):
-    encodedImage = base64.b64decode(encodedImage)
-    im_arr = np.frombuffer(encodedImage, dtype=np.uint8)  # im_arr is one-dim Numpy array
-    img = cv2.imdecode(im_arr, flags=cv2.IMREAD_COLOR)
-    return img
-
-def encode(image):
-    b, image = cv2.imencode('.jpg', image)  # im_arr: image in Numpy one-dim array format.
-    im_bytes = image.tobytes()
-    im_b64 = base64.b64encode(im_bytes)
-    return im_b64
+from connectors.consts import INCREMENT_VAR
+from connectors.image_encoding import decode, encode
+from connectors.proxy import ProxyConnector
 
 users_info = dict()
-INCREMENT_VAR = 10240
-# executor = dict()
-
 
 def worker_routine(worker_url, thread_count):
     context = zmq.Context.instance()
@@ -37,10 +20,17 @@ def worker_routine(worker_url, thread_count):
         layers, message = users_info[client_data[0].decode()], client_data[1:]
         message = b"".join(message)
 
-        image = decode(message)
-        for layer in layers:
-            image = layer.process(frame=image)['frame']
-        message = encode(image)
+        kwargs = {
+            "encoded": message,
+            "frame": decode(message),
+            "lastEncodedIndex": -1
+        }
+        for i,layer in enumerate(layers):
+            # if layer.doEncoding() and kwargs["lastEncodedIndex"] != i - 1:
+            #     kwargs["encoded"] = encode(kwargs["frame"])
+            #     kwargs["lastEncodedIndex"] = i
+            kwargs = layer.process(**kwargs)
+        message = encode(kwargs["frame"])
 
         output_message = []
         start_index = 0
@@ -56,32 +46,39 @@ def worker_routine(worker_url, thread_count):
 def start(queue, executor, server, port, **kwargs):
     server_url = "tcp://*:" + str(port)
     worker_url = "inproc://worker"
+    proxy = ProxyConnector()
+    executor[proxy.name()] = proxy
+    try:
+        context = zmq.Context.instance()
+        server_socket = context.socket(zmq.ROUTER)
+        server_socket.bind(server_url)
 
-    context = zmq.Context.instance()
-    server_socket = context.socket(zmq.ROUTER)
-    server_socket.bind(server_url)
+        worker_socket = context.socket(zmq.DEALER)
+        worker_socket.bind(worker_url)
 
-    worker_socket = context.socket(zmq.DEALER)
-    worker_socket.bind(worker_url)
+        def localStoreThread():
+            while True:
+                if queue.empty():
+                    time.sleep(0.5)
+                    continue
 
-    def localStoreThread():
-        while True:
-            if queue.empty():
-                time.sleep(0.5)
-                continue
+                data = queue.get()
+                layers = []
+                for pipeElement in data['pipeline']:
+                    layers.append(executor[pipeElement['name']])
+                users_info[data['token']] = layers
 
-            data = queue.get()
-            layers = []
-            for pipeElement in data['pipeline']:
-                layers.append(executor[pipeElement['name']])
-            users_info[data['token']] = layers
+        threading.Thread(target=localStoreThread).start()
+        for i in range(5):
+            thread = threading.Thread(target=worker_routine, args=(worker_url, i))
+            thread.daemon = True
+            thread.start()
 
-    threading.Thread(target=localStoreThread).start()
-    for i in range(5):
-        thread = threading.Thread(target=worker_routine, args=(worker_url, i))
-        thread.daemon = True
-        thread.start()
+        zmq.proxy(server_socket, worker_socket)
 
-    zmq.proxy(server_socket, worker_socket)
+    except Exception as e:
+        print(e)
+    finally:
+        context.term()
 if __name__ == "__main__":
     start(multiprocessing.JoinableQueue(), "./config.yml")

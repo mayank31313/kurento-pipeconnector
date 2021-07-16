@@ -11,6 +11,7 @@ kwargsArgs = dict()
 
 @app.route("/setPipeline", methods=["POST"])
 def setPipeline():
+    print(request.data)
     data = json.loads(request.data.decode())
     user_info = UserInfo(token=uuid.uuid4().__str__(), pipeline=data['pipeline'])
     local_queue.put(user_info.__dict__)
