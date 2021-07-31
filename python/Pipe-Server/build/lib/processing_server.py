@@ -54,7 +54,7 @@ def worker_routine(worker_url):
         socket.send_multipart(output_message)
 
 def start():
-    server_url = "tcp://*:5555"
+    server_url = "tcp://*:34263"
     worker_url = "inproc://worker"
 
     try:

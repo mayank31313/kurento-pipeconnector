@@ -1,4 +1,7 @@
 pyyaml
+skbuild
 requests
 flask
 pyzmq
+opencv-python
+numpy

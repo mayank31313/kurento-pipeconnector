@@ -1,10 +1,10 @@
 connectors:
   path:
-    - connectors
+    - ../connectors
 server:
   zmq:
-    server: 192.168.66.3
+    server: 192.168.66.5
     port: 5555
   http:
-    server: 192.168.66.3
+    server: 192.168.66.5
     port: 26534

@@ -1,8 +1,10 @@
 import multiprocessing
-from server_zmq import start as zmq_start
-from server_flask import start as flask_start
-from yaml import load, Loader
 import importlib, os, sys
+sys.path.append("./")
+from server.server_zmq import start as zmq_start
+from server.server_flask import start as flask_start
+from yaml import load, Loader
+
 
 def run(config):
     executor = {}
@@ -40,7 +42,7 @@ def run(config):
 
                 if baseClass.endswith("connectors.AbstractConnector"):
                     objInstance = classInstance()
-                    if objInstance.name() is "proxy_connector":
+                    if objInstance.name() == "proxy_connector":
                         continue
                     print("Registering ", objInstance.name())
                     executor[objInstance.name()] = objInstance
@@ -58,4 +60,4 @@ def run(config):
     flask_process.join()
 
 if __name__ == "__main__":
-    run("./config.yml")
+    run("../config.yml")
